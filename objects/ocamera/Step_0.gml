@@ -26,7 +26,7 @@ angle = lerp(angle, angle_to, 0.1);
 
 // Set the angle to the actual camera angle
 camera_set_view_angle(view_camera[0], angle);
-show_debug_message(pitch);
+//show_debug_message(pitch);
 
 // Pitch camera
 camera_set_view_size(view_camera[0], original_w, original_h * pitch);

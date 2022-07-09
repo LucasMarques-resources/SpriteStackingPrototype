@@ -32,3 +32,8 @@ function draw_sprite_billboard_ext(_sprite, _index, _x, _y, _xscale, _yscale, _b
 {
 	draw_sprite_ext(_sprite, _index, _x, _y, _xscale, _yscale * camera_pitch, -camera_angle, _blend, _alpha);
 }
+
+function depth_set_3d()
+{
+	depth = dot_product(x, y, lengthdir_x(1, camera_up), lengthdir_y(1, camera_up)) - 1000;	
+}
