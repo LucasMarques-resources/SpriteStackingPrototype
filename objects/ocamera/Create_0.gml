@@ -22,6 +22,7 @@
 // Local variables
 original_w = camera_width;
 original_h = camera_height;
+target = self;
 
 // Pitch variables
 pitch = 1;

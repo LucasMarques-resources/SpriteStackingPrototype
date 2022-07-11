@@ -3,6 +3,9 @@
 
 // Update Camera
 
+x = lerp(x, target.x, 0.1);
+y = lerp(y, target.y, 0.1);
+
 // Rotate and pitch the camera using the mouse
 if (mouse_check_button(mb_left))
 {

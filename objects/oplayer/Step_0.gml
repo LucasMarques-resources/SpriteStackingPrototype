@@ -1,11 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//var _cam_x_to = lerp(camera_x, x-camera_width*0.5, 0.05);
-//var _cam_y_to = lerp(camera_y, y-camera_height*0.5, 0.05);
-
-//camera_set_view_pos(view_camera[0], _cam_x_to, _cam_y_to);
-camera_set_view_pos(view_camera[0], x-camera_width*0.5, y-camera_height*0.5);
+oCamera.target = oPlayer;
 
 var right, left, up, down
 up = keyboard_check(ord("W"));
